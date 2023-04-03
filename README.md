@@ -1,2 +1,7 @@
 # Unsupervised_Machine_Learning_Fishing
-For this project I used the clustering method to perform unsupervised machine learning on a dataset about fishing excurisions in the North Atlantic.
+
+For this project I used the clustering method to perform unsupervised machine learning on a dataset about fishing excurisions in the North Atlantic. The dataset I used is from Kaggle.com, and contained over one million rows of data about instances when boats entered the North Atlantic for purposes of fishing.  The purpose of this project was to use machine learning to cluster the data, after which my job as an analyst was to perform an EDA on the clusters and figure out what each cluster had in common. 
+
+I chose this dataset because of the size and because I have never worked with fishing data of any kind before, and I thought it would be a good challenge, which it was!  The data clustered into 4 sets - even though using yellowbrick gave me an ideal KMeans value of 5. After comparing how a cluster of 3, 4, and 5 looked like across various data points, I chose 4 because it was in my opinion the best representation.  
+
+I then created a new column in the dataset based on the cluster each row was assigned, and performed an EDA on the data by grouping the data based on clusters, wiht the purpose of finding patterns.  I was able to identify some distinct feature in each cluster, such as length and weight of the vessel, distance covered in the excursion, and value of the catch from the excursion, and I summarized my findings in the attached presentation.  Also attached are my Jupyter Notebook files with my code for this project. 
